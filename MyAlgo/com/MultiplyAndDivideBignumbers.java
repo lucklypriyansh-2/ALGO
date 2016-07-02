@@ -2,6 +2,19 @@ package com;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * This function multiply very big numbers and without using multiplications
+ * Steps followed for 12*11 example array-21 number 11 
+ * 11*2+0(temp)=22 temp=2 number=2  
+ * array 21 
+ * 1*11+temp(2)=13
+ * array 23 temp 1
+ * while loop array 321
+ * 
+ * @author PrNigam
+ *
+ */
 public class MultiplyAndDivideBignumbers {
 
 	public static void main(String... args) {
@@ -24,8 +37,6 @@ public class MultiplyAndDivideBignumbers {
 			m++;
 		}
 
-		
-		
 		for (int i = 1; i < numberarray.length; i++) {
 			int currentnumber = numberarray[i];
 			int temp = 0;
