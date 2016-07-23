@@ -21,7 +21,7 @@ public class PIGGYBANK {
 			ArrayList<Integer> wieghttArray = new ArrayList<>();
 			int noofpriceweight = sc.nextInt();
 			for (int j = 0; j < noofpriceweight; j++) {
-				pricearray.add(sc.nextInt());`
+				pricearray.add(sc.nextInt());
 				wieghttArray.add(sc.nextInt());
 			}
 			int amount = MinimumAmount(pricearray, wieghttArray, piggycapacity, wieghttArray.size() - 1);

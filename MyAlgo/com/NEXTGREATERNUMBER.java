@@ -26,8 +26,8 @@ public class NEXTGREATERNUMBER {
 
 		Arrays.sort(elements, 3, elements.length);
 
-		for (int i = 0; i < elements.length; i++) {
-			System.out.println(elements[i]);
+		for (int i1 = 0; i1 < elements.length; i1++) {
+			System.out.println(elements[i1]);
 		}
 
 	}

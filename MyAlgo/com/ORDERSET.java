@@ -7,8 +7,6 @@ public class ORDERSET extends Object {
 	public static void main(String... args) {
 
 		Scanner sc = new Scanner(System.in);
-		sc.hasNextLine()
-		
 		String[] array = new String[] { "{}[](){[}]", "([})" };
 		braces(array);
 	}
